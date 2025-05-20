@@ -19,3 +19,21 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# IDE 配置文件
+.idea/
+.vscode/
+.gradle/
+bin/
+build/
+out/
+
+# 系统/缓存文件
+*.log
+*.tmp
+.DS_Store
+node_modules/
+
+# 其他生成文件
+**/target/
+**/*.iml
